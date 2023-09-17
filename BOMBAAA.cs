@@ -27,7 +27,7 @@ public class FallingBombs : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "lav")
+        if (collision.gameObject.tag == "lav") // lav etiketine sahipse bomba prefabını yok et
         {
             Destroy(bombPrefab);
         }
