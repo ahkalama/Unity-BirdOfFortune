@@ -25,7 +25,7 @@ public class Bomb : MonoBehaviour
     }
     private IEnumerator WaitAndPrint()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.5f); // 0.5f bekletip 2. sahneyi yüklemesi için
         SceneManager.LoadScene(2);
     }
 
