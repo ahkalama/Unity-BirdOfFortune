@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour
 {
-    public AudioSource audioSource;
+    public AudioSource audioSource; // AudioSource compenentinden çekiyor
     public Button playPauseButton;
 
     private bool isPlaying = true;
@@ -22,8 +22,10 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
-            audioSource.Play();
+            audioSource.Play(); 
         }
         isPlaying = !isPlaying;
     }
 }
+
+// bu script butona bastığında müziği açıp kapaması için
