@@ -22,4 +22,4 @@ public class buttons : MonoBehaviour
     }
 
 }
-//BURAYI AÇIKLAMAMI BEKLİYORSAN SENİN KAFANI S
+//BURAYI AÇIKLAMAMI BEKLİYORSAN SENİN KAFANI SI
