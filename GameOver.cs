@@ -16,7 +16,7 @@ public class GameOver : MonoBehaviour
     }
     private void scoreDisplay()
     {
-        scoreDisplayText.text = "Your Score: " + Timer.seconds;
+        scoreDisplayText.text = "Your Score: " + Timer.seconds; // Son scene de skorunu gösterir
     }
 
     private void highscoreDisplay()
