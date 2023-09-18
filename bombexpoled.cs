@@ -12,7 +12,7 @@ public class Bomb : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "amedkaya")
+        if (collision.gameObject.tag == "amedkaya") // etiketi tagı amedkayaysa laklak'ı çalıştıracak, collision olduğunda rigidbody vermen gerekiyor.
         {
             laklak();
         }
