@@ -35,11 +35,13 @@ public class FallingBombs : MonoBehaviour
 
     private void SpawnBomb()
     {
-        float spawnX = Random.Range(-2.0f, 2.0f); // Rastgele bir X pozisyonu
-        float fallSpeed = Random.Range(minFallSpeed, maxFallSpeed); // Rastgele düşme hızı
+        float spawnX = Random.Range(-2.0f, 2.0f); // rastgele bir X pozisyonu
+        float fallSpeed = Random.Range(minFallSpeed, maxFallSpeed); // rastgele düşme hızı
 
         GameObject newBomb = Instantiate(bombPrefab, new Vector3(spawnX, 10f, 0f), Quaternion.identity);
-        Rigidbody2D bombRigidbody = newBomb.GetComponent<Rigidbody2D>();
-        bombRigidbody.velocity = new Vector2(0, -fallSpeed);
+        
+        Rigidbody2D bombRigidbody = newBomb.GetComponent<Rigidbody2D>(); // yeni bombaya rigidbody ekliyor
+        
+        bombRigidbody.velocity = new Vector2(0, -fallSpeed); //yeni bombaya düşme hızı ekleme kısmı
     }
 }
