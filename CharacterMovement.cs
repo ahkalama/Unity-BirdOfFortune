@@ -9,7 +9,7 @@ public class CharacterMovement : MonoBehaviour
 
     void Start ()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>(); //rigidbody çekip rb ye atıyorsss
     }
 
     private void Update()
