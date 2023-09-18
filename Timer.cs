@@ -20,7 +20,7 @@ public class Timer : MonoBehaviour
     private void UpdateTimeText()
     {
         seconds = Mathf.FloorToInt(currentTime);
-        timeText.text = "Elapsed time: " + seconds.ToString();
+        timeText.text = "Elapsed time: " + seconds.ToString(); // gecen süreyi söyler
     }
     
     
