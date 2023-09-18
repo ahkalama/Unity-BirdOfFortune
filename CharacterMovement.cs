@@ -14,8 +14,8 @@ public class CharacterMovement : MonoBehaviour
 
     private void Update()
     {
-      // yatayhareket = Input.GetAxis("Horizontal");
       rb.velocity = new Vector2(yatayhareket * moveSpeed * Time.deltaTime, rb.velocity.y);
+      // yatay harakete göre sağa sola gidiyor veya duruyor
     }
 
     public void sol()
