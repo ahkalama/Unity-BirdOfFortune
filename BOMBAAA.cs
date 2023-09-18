@@ -29,7 +29,7 @@ public class FallingBombs : MonoBehaviour
     {
         if (collision.gameObject.tag == "lav") // lav etiketine sahipse bomba prefabını yok et
         {
-            Destroy(bombPrefab);
+            Destroy(bombPrefab); // bombayı yok et (yoğamİİİına)
         }
     }
 
