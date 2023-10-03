@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class buttons : MonoBehaviour
 {
-    public void PlayButton()
+    public void PlayButton() //PLAY BUTTON FONKSİYONU SAHNE 1 İ YÜKLER QUİT OYUNDAN ATAR 
     {
         SceneManager.LoadScene(1);
     }
@@ -22,4 +22,3 @@ public class buttons : MonoBehaviour
     }
 
 }
-//BURAYI AÇIKLAMAMI BEKLİYORSAN SENİN KAFANI SI
