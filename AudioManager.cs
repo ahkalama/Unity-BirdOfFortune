@@ -11,9 +11,8 @@ public class AudioManager : MonoBehaviour
 
     void Start()
     {
-        playPauseButton.onClick.AddListener(TogglePlayPause);
+        playPauseButton.onClick.AddListener(TogglePlayPause); // button nesnesinin içinden AddListener componentine fonksiyonumuzu yolluyoruz.
     }
-
     void TogglePlayPause()
     {
         if (isPlaying)
